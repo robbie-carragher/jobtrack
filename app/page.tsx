@@ -8,11 +8,10 @@ import { Camera } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className='h-screen flex items-center justify-center'>
-      <Button>default button</Button>
-<Button variant='outline' size='icon'>
-<Camera />
-</Button>
-    </div>
+<main>
+<header className="max-w-xl mx-auto px-4 sm:px-8 py-6">
+<Image src={Logo} alt="logo" />
+</header>
+</main>
   );
 }  
